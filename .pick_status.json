@@ -1,5 +1,41 @@
 [
     {
+        "sha": "c0c03f4772fef361137bba5681b71215aca107d1",
+        "description": "rbug: Fix rbug_delete_vs_state lock acquisition.",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": "07838ff990a74e3acd95de7042042b49ecc51570"
+    },
+    {
+        "sha": "583d7d3d8d0d14d636340b0f12f72db7b0148ceb",
+        "description": "v3d: moving v3d simulator to src/broadcom",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "4fccbd0ea60280fd1e9cb0728ba828783fb20b2c",
+        "description": "turnip: Put VK_KHR_external_fence_fd stubs back",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "39f06e28485d4c4f111e5347d0265c79b8fb396c",
+        "description": "iris: Implement pipe->texture_subdata directly",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
         "sha": "34630fe081b14623adb94cca403619788e18826b",
         "description": "turnip: Properly return VK_DEVICE_LOST on queuesubmit failures.",
         "nominated": false,
