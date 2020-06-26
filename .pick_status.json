@@ -1,5 +1,1004 @@
 [
     {
+        "sha": "34630fe081b14623adb94cca403619788e18826b",
+        "description": "turnip: Properly return VK_DEVICE_LOST on queuesubmit failures.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "487576e3cfd7768ba274aab7f1ea40a6877c8e50",
+        "description": "turnip: Fix error handling of DRM_MSM_GEM_INFO ioctls.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "e67c2e1c96c17b5b57f214297adba2a8a302f994",
+        "description": "turnip: Do better TU_DEBUG=startup logging of drmGetDevices2() failure.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "aba8c579a9780f9d3ad2d677f9ef625df7726479",
+        "description": "turnip: semaphore support.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "6283da34a9147f65c2cf2bc0d4d2c06bec9ed4ac",
+        "description": "ci/baremetal: Bump the kernel to a recent drm-msm-fixes for msm semaphores.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "5c0f82b0d72927b98157300f5c9017f99299fbd4",
+        "description": "aco: fix partial copies on GFX6/7",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "66482303f6d19f1e498b31626c3cbae75e44e957",
+        "description": "mapi: x86: Fix dynamic entries in x86 tsd stubs.",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": "45206d7673adb1484cbdb3eadaf82e0849c9cdcf"
+    },
+    {
+        "sha": "63805ccd3f0b26174d04bb49b04040e968ffb819",
+        "description": "ci/bare-metal: Fail early when we get stuck powering on a cheza.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "189a0fecf54139cea128731fcc6ae00d46565cd4",
+        "description": "freedreno/ir3: move nir finalization to after cache miss",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "f97acb4bb4b18f127b62aa8eeb57cdf3d8fe3aa2",
+        "description": "freedreno/ir3: disk-cache support",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "6aadb00e60fcf37bbef0dfe03e76e72e7c08bf33",
+        "description": "freedreno/ir3: build binning variant at same time as draw variant",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "83b97bf161f50371a09fdc02b3ca045671469b09",
+        "description": "freedreno/a6xx+ir3: stop generating pointless binning shaders",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "fdbe1ffaf74c4b1e913947cff5f3f40ab7b5feca",
+        "description": "freedreno/ir3: shuffle some variant fields",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "c0f22c3d9406ef354142e974783f6c6c066a5c68",
+        "description": "freedreno/ir3: add ir3_compiler_destroy()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "f1ab57359c7a98ecd45ba3da905dd44c4d7cae5b",
+        "description": "freedreno/ir3: move finalize_nir to pscreen hook",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "d3ae55937830853349bcc80298714167839c42f2",
+        "description": "freedreno/ir3: add ir3_finalize_nir()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "e35b8971a74a62960e7328993d93a090a25c22a7",
+        "description": "zink: use OpFUnordNotEqual for nir_op_fne",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "765de33d3ce34ee2e4df5e349dce4dabb13bfcfc",
+        "description": "zink: set lower_mul_high and lower_rotate in ntv compiler options",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "49c13fccf75faf5f3befb87d94e86665f57b1898",
+        "description": "zink: handle isign alu in ntv",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "21fe5b0ffdf291ac711206e51288045939a83259",
+        "description": "zink: handle ixor in ntv",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "651d093298d07b52dbadd6759936aa2d426b6424",
+        "description": "zink: lower byte/word extract ops in nir",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "90d34558488effc988d11e692ecf870084a6f709",
+        "description": "zink: add bitfield_reverse handling to ntv",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "957d8e26582fd9397207f44977302e5a3810b849",
+        "description": "zink: add ult handling for ntv",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "2159aa0c49e1935438b96ff5c56bcce3e292dfad",
+        "description": "zink: handle signed and unsigned min/max ops in ntv",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "f13d79f519db446df616347138cb0e897758c1d1",
+        "description": "radv: remove the load/store workaround for Monster Hunter World with LLVM",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "a30ad8cb2388e5aeaff0a499eb3b8294068169bb",
+        "description": "radv: remove the shader ballot workaround for Youngblood with LLVM",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "099916384a47c27dee69be0dd3ceb070b5369931",
+        "description": "docs: update favicon",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "2fbc12a0ac0472b85922c406ce14931091d74eb6",
+        "description": "turnip: fix huge scissor min/max case",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "9c0ae5704d654108fd36b8de3f7364601ba30c53"
+    },
+    {
+        "sha": "1854eeefded9dafca62a24ed4b2f460e0bf1dd71",
+        "description": "turnip: fix VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_VULKAN_1_1_FEATURES",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "62de79ac4492ac9e4af99b9a25c15cda1114e7d9"
+    },
+    {
+        "sha": "6b886fbc0b239024fd7681f4518ada3d7568a68b",
+        "description": "panfrost: Add PAN_MESA_DEBUG=gl3 flag",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "1288613f1c7cb17d49bd093e1339d32fcd0cd9cb",
+        "description": "freedreno/a6xx: use firstIndex field",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "ba5e1c5310f3954aae803fe82814b22a86beeef7",
+        "description": "tu: Pass firstIndex directly to CP_DRAW_INDX_OFFSET",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "259d07a2ff8ef471f47e3618399977514177233e",
+        "description": "freedreno/registers: Label firstIndex field in CP_DRAW_INDX_OFFSET",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "a32fb2f9d037ee6cd66c6883d3bbda52f1d79f21",
+        "description": "freedreno: On a5xx+ INDX_SIZE is MAX_INDICES",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "1dd24bf27b2b1da65cf66f58481ec2331179b4e0",
+        "description": "freedreno: Share constlen between different stages properly",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "d9dd989d2a5d08e465f3c7fcb427aa24ec6247d2",
+        "description": "freedreno: Refactor ir3_cache shader compilation",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "8ad65609da345871465a8e1be8cbf7173913ede4",
+        "description": "tu: Share constlen between different stages properly",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "48b1602b5065384ad40f6852e72eacc538ccf319",
+        "description": "ir3: Add ir3_trim_constlen()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "9edff0cfd4f567a9db5bc02be519e7d48299228a",
+        "description": "ir3: Support variants with different constlen's",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "4554b946c387ac38acade14d006b2b599a08f446",
+        "description": "ir3: Include ir3_compiler from ir3_shader",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "2841bb1fac81c32b736f593507d46c46e7488f68",
+        "description": "ir3, freedreno: Round up constlen earlier",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "4845f184d767edebb952a0a1a0f9af769b651656",
+        "description": "v3d/compiler: don't rewrite unused temporaries to point to NOP register",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "3b1c511b099e88d1b153de784e3bf7e951a6288f",
+        "description": "v3d: Use stvpmd for non-uniform offsets in GS",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "dab8a9169c197a98df23f2bd0eb5e18cdeb71c99",
+        "description": "v3d: Add missing macro for stvpmd instruction",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "71794567f966fd51eb626598d586ef75020adbf4",
+        "description": "radeonsi: remove tabs",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "0cdec11d9533b9d77dd2433483fbe5b69c28a272",
+        "description": "radeonsi: clear per-context buffers at the end of si_create_context",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "da78d50bc87ef5db846a942664094b6299cd1888",
+        "description": "radeonsi: make si_pm4_cmd_begin/end static and simplify all usages",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "7b2a0f880b5964d120d06d1661ee2701333d0e1e",
+        "description": "radeonsi: disallow adding BOs into si_pm4_state except 1 shader BO per state",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "3b1e42d2c228730fb3c04646e45b82c5e7059b6c",
+        "description": "radeonsi: make wait_mem_scratch unmappable",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "428360662f300c44729dada9cd57c5b9a04befe8",
+        "description": "radeonsi: don't add the tess ring buffers into the cs_preamble state",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "1c1d34a67ac037facabe085f030c94cae46f574d",
+        "description": "radeonsi: rename init_config states to cs_preamble states",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "bbc0a2d51db0ae31979e039cfea643b6b3492c23",
+        "description": "radeonsi: don't add the border color buffer into the init_config state",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "c7680625c361a13d6a18d0b339b3a8e269962a2c",
+        "description": "ac,winsys/amdgpu: align IBs the same as the kernel",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "556f4458fe90cea54caa63310dce9dded4034aea",
+        "description": "amd: add proper definitions for NOP packets",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "276e6d7bbce089e0556c8f9e6601edc1dd3b5daf",
+        "description": "gitlab-ci: attach the Fossilize log file as artifact on failure",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "4954df417c7bedd399a75dc4d80431ea9bba417d",
+        "description": "gitlab-ci: append Fossilize stdout/stderr to a file to reduce spam",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "b24b415013e9ef00c02ce64db376c976faee9dbe",
+        "description": "gitlab-ci: set the number of Fossilize threads to 4",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "be5d06106ffd4ec29884d7cfca660b20eeac6f5b",
+        "description": "panfrost: Only copy resources when they are in a pending batch",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "361fb38662f80e645e9087781faa4bec10dd6ac7"
+    },
+    {
+        "sha": "66df2ffa36a69265dbb6ab815a93eca6c2a208da",
+        "description": "anv: Align \"used\" attribute to 64 bits.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "293221dddaedb410781d39fdecf3c93bb111475b",
+        "description": "iris: Align last_seqnos to 64 bits.",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": "aba3aed96e4394a213e188f2f71ef045803a27c5"
+    },
+    {
+        "sha": "2fd746e98e76c9454b7fab0ac41c5b1456bcba90",
+        "description": "ci: Remove a stray \"always\" on the freedreno traces job.",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "b88c46fa11ae4903ec8fdad0d39727bb80d7c74b"
+    },
+    {
+        "sha": "50e20cb036145f6429af8ee2c5daa1d75e02fb27",
+        "description": "freedreno/a6xx: Add support for polygon fill mode (as long as front==back).",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "72c0522db28b97d9f70b14f28c34f3f0d24b0885",
+        "description": "turnip: Add support for polygon fill modes.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "daee177ca0285bac842b3485dfbb3d8591401261",
+        "description": "freedreno/a6xx: Define the register fields for polygon fill mode.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "b88c46fa11ae4903ec8fdad0d39727bb80d7c74b",
+        "description": "ci: Add a freedreno a630 tracie run.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "b5f727afeb38d813cf32ea1fa90f6079b999e6e5",
+        "description": "ci/tracie: Fix apitrace dump using \"less\" which isn't in the ARM rootfs.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "9f1412cf3eb1c45beca9d5c973dfbf4fa84c10e8",
+        "description": "ci/tracie: Print the path if the trace isn't found.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "7406d627c8864a8754efed14d0ad9d6a853325ac",
+        "description": "ci: Include trace replay support in ARM rootfses.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "acf9d8b75d9ae39c812b9b2ed41ff0078bd35c42",
+        "description": "ci/bare-metal: Don't include dev packages in arm*test.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "9079b53987e3d8dd82b0fa40a010f32524b13aeb",
+        "description": "ci/bare-metal: Skip setting of unset variables at startup.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "21b2dac793081fc7072f7ddfd0ba2f4aa94e8a0a",
+        "description": "ci: Move ARM rootfses to stable",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "a04672a105239b230b0e880d63cee6621a10f10c",
+        "description": "ci: Don't call renderdoc's ReplayController.Shutdown()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "62de79ac4492ac9e4af99b9a25c15cda1114e7d9",
+        "description": "turnip: implement VK_KHR_shader_draw_parameters",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "16a9e233da9a4ce64c876e2e69a8e9bb96436ff3",
+        "description": "freedreno/ir3: add support for load_draw_id",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "01799b3448ca4e31bb83a79b95e8b7634fa2c8c7",
+        "description": "freedreno/registers: add CP_DRAW_INDIRECT_MULTI",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "7e98f2534c336c386368f8e62c290906d9f567fe",
+        "description": "gitlab-ci: add a list of expected failures for RADV/ACO on NAVI14",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "63e1e7209c2bf7d8bbce18380d4f1b2cff4c0bbb",
+        "description": "radv: enable ACO by default",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "db0afb380077a6e426aaa035a6cce0b42b78e41d",
+        "description": "radv: change use_aco -> use_llvm",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "b78f64507e9edf315208147811479146947270fe",
+        "description": "radv: introduce RADV_DEBUG=llvm option",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "37e7a5e746dbb57bc44ff9da308b7bfc529e40d6",
+        "description": "zink: unify code for setting resource barriers",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "a102896cff296fe305e4734be4a1774958d969d8",
+        "description": "radv: lower 64-bit dfloor on GFX6 for fixing precision issues",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "c84f11e7b67cfa3c01780210ca31665b658e5ebd",
+        "description": "radv: lower 64-bit drcp/dsqrt/drsq for fixing precision issues",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "82b46667836647226387442b2feb9d7f1475bd36",
+        "description": "iris: Honor scanout requirement from DRI",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "ec7b55f4cc5dd3dc61eb6b9e51f46c58a2a896d3",
+        "description": "vulkan/overlay: fix crash on destroying NULL swapchain",
+        "nominated": true,
+        "nomination_type": 0,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "8c962f5f61f11c0ed38f277fcd828ddd967f98ae",
+        "description": "gitlab-ci: add parallel-rdp fossils",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "6da06479878a1b2d765c8fbe3c168b7ecbe86795",
+        "description": "freedreno/ir3/ra: fix pre-color edge case",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "c5b990f435e7145bfd8562c80a4dc1012aaa03f8",
+        "description": "turnip: disable early_z for VK_FORMAT_S8_UINT",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "04148f4411169bed0784d2bb47f763c429011223",
+        "description": "turnip: fix update_stencil_mask",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "233610f8cf8d8810173a7eac0c046574aeb485f9"
+    },
+    {
+        "sha": "9c0ae5704d654108fd36b8de3f7364601ba30c53",
+        "description": "turnip: fix empty scissor case",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "7c008c293d7b220eec0c98cefb794cab95ee344e",
+        "description": "freedreno: handle batch flush in resource tracking",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "16b4da3ba3117e69d9bd7519f57ae5f970fc48f7",
+        "description": "freedreno: split out batch clear tracking helper",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "ad136945e6da8f81c454c60c6702995066b9dfdb",
+        "description": "freedreno: split out batch draw tracking helper",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "d74554b16742c29b388ada91d2b8922504153bd2",
+        "description": "freedreno: make foreach_bit() declare it's cursor",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "1fd2bc10dc7695378115a99d7566ee3859dd992c",
+        "description": "turnip: implement VK_EXT_vertex_attribute_divisor",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "8018b4b7071774d2064cb526d748fb8e1df7402b",
+        "description": "docs: fix 20.1.2 relnotes",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "e94f81e9df8f038813a4d37263254870bc9cc60f"
+    },
+    {
+        "sha": "804c6ee0dfd9b2a6e84ee0cbeb452b9276e5a2b0",
+        "description": "docs: update calendar and link releases notes for 20.1.2",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "e94f81e9df8f038813a4d37263254870bc9cc60f",
+        "description": "docs: Add release notes for 20.1.2",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "3065c4bf925e69e27dc93ded99bc339ed0972307",
+        "description": "freedreno/ir3: switch PIPE_CAP_TGSI_TEXCOORD",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "e6d650353a0b53e4b954cb41d0e7b0add9329283",
+        "description": "freedreno: convert builtin blit VS prog to ureg builder",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "b5574c516547066f2ee07086f475a7416604c175",
+        "description": "freedreno/a3xx: use point-coord helper",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "ba6e1514f590320e60962e34d45df83488e9d463",
+        "description": "freedreno/a4xx: use point-coord helper",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "3e8c6312c70fb5a8a8df0bb4eeee70a079fe67ea",
+        "description": "freedreno/a5xx: use point-coord helper",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "a474d48e1764a5251e1a47e1a34424c28d8ecfa0",
+        "description": "freedreno/a6xx: use point-coord helper",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "68d6aa3dd02a33b650aeb66fbca83072a52202a1",
+        "description": "freedreno/a6xx: de-duplicate vinterp/vpsrepl state building",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "022c363cfbb7e37eef5d5b7559d24f8237a72f27",
+        "description": "freedreno/ir3: add helper to determine point-coord inputs",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "64c2a10707f8296944160284bf62d0e6bf7a27d9",
+        "description": "turnip: move some logic out of create_render_pass_common",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "c9c76f6832062204683ece8c7d7dfaf7cc06b0e0",
+        "description": "turnip: use RenderPassCreateInfo for render_pass_add_implicit_deps",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "e4099201bcd4e5c8e6c281368b5b75d5fc89b3ff",
+        "description": "turnip: replace a memset(0) with zalloc in CreateRenderPass",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "70046145d19454ad74d98e719ee5aba8c8df86ae",
+        "description": "turnip: translate CreateRenderPass to CreateRenderPass2",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "01e2893cba4dd0f3ef98020ef0707510ce2cfde8",
+        "description": "turnip: implement depthBounds",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "a9d866910c59a2e9e0c001b2d5f337205d8c3c1f",
+        "description": "freedreno/registers: a6xx depth bounds test registers",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
         "sha": "4fc0499049fcdb7f892f99ce7abf9d739730138e",
         "description": "aco: remove outdated assert in handle_operands()",
         "nominated": false,
