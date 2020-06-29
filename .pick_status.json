@@ -1,5 +1,203 @@
 [
     {
+        "sha": "08c39a8a2931e587e4715d2ed12b2fe1990aa4c3",
+        "description": "v3d: Fix -Wmaybe-uninitialized compiler warning in the v33 code.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "f55a308c75d1c18dc3e8268ba7cdc3e6f66067b9",
+        "description": "v3d: Enable PIPE_CAP_TGSI_TEXCOORD.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "a60e8dfdc5d6302db6b79325572b020d55e426d9",
+        "description": "vc4: Enable PIPE_CAP_TGSI_TEXCOORD.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "64cb81a3a4ad0b2c794a276ca22c7fd39a1856a8",
+        "description": "gallium/util: Add a helper function for point sprite handling.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "622c548967a3ba7f7522057e10d696600b1b002c",
+        "description": "turnip: enable depthBiasClamp",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "0ed100ea498c38b7b87be34d2c46f5cdb60e3009",
+        "description": "turnip: enable largePoints",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "cb10edd54467b81105f7d68173809006d00f0d07",
+        "description": "freedreno/regs: add extra bits for UBWC array pitch",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "c425ca5566a6bd22fe4d38e7b46d82582ce29de9",
+        "description": "frontends/va: Handle dynamic resolution/SVC for VP9",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "653dff949e93a8dc53924387f7b18328d14ebc60",
+        "description": "v3d/compiler: fix spill offset",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": "97566efe5cac0ff11b23d8f27001fc98c7cea2af"
+    },
+    {
+        "sha": "7a5e6fd25f2e132ef4cacc3a5b714c4e153227b0",
+        "description": "radv: add support for MRTs compaction to avoid holes",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "4e0dcbb880855167d09010f948419a3857879a82",
+        "description": "radv: use SPI_SHADER_ZERO for non-written color attachments",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "18b42eebd597043f359aa47faeaa47f1a379e1b9",
+        "description": "radv: rework 8/16-bit color attachment formats detection",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "76ee45d3a88dc1d85a8fb50620fb99032726cbec",
+        "description": "radv: adjust CB_SHADER_MASK for dual-source blending in the shader info pass",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "26a48d8d352b84dcfd11dcb0af08d9ae6333e543",
+        "description": "radv: enable VK_AMD_shader_ballot on GFX6-7 with both compiler backends",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "cff418cc4caba78117986a31ce3852f2c137a95b",
+        "description": "nir: Add new rules to optimize NOOP pack/unpack pairs",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "237d72841805a6964b8ebef17c044020e34b1141",
+        "description": "gallivm/nir: fix const loading on big endian systems",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": "44a6b0107b37ad9644d3435cf6d2d29b6779654f"
+    },
+    {
+        "sha": "7d31bc9a34ccc4b8570c4145379177c007922504",
+        "description": "freedreno/ir3: fix resinfo wrmask",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "b1c16e52514fd9e66d3ac118f1ec32a83cbc5f2a",
+        "description": "docs: use ref-links for internal references",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "5ee55b206af1a2eaf5ad23c8b8833c6fc49a96ea",
+        "description": "docs: fix internal references",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "429ff054917910190831ab554f6c7a25eeeaf069"
+    },
+    {
+        "sha": "1d250bf2916df9497bec4a7d4e496dff76814bcc",
+        "description": "docs: restore accidentally dropped labels",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "14f2a81b6f66e076318472a632b749e98d86f8d6"
+    },
+    {
+        "sha": "05e61a915732b38aa65d1e7ecf07a6e61fb33158",
+        "description": "docs: remove non-existent reference",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "3b74e6fa28037ee2d3fc0824275a9e1c509a0e2c",
+        "description": "meson: Do not require shader cache for radv.",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": "cc10b34e9ed1104f4ceb88a49a42e1d6a743d52f"
+    },
+    {
         "sha": "c0c03f4772fef361137bba5681b71215aca107d1",
         "description": "rbug: Fix rbug_delete_vs_state lock acquisition.",
         "nominated": true,
