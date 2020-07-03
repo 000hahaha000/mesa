@@ -1,5 +1,509 @@
 [
     {
+        "sha": "0e7b7c3087026015b293e224f024dc4ba7aecb84",
+        "description": "turnip: vsc improvements",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "4ac851ea2534de797b765db6554ea92afc19bdc1",
+        "description": "turnip: rework render_tiles loop",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "8898ebce1a1b469b6fd88415d414b3380fe05b88",
+        "description": "turnip: make tiling config part of framebuffer state",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "31392f837110f17c6037b4861056a891e078c083",
+        "description": "Revert \"loader/dri3: Check for window destruction in dri3_wait_for_event_locked\"",
+        "nominated": false,
+        "nomination_type": 2,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "d7d7687829875e401690219d4a72458fb2bbe4de"
+    },
+    {
+        "sha": "02d0b2d5604d4a9e0ddfa8234db4c92682de0e69",
+        "description": "meson: Add versioning for xvmc tracker",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": "22a817af8a89eb3c762fc3e07b443a3ce37d7416"
+    },
+    {
+        "sha": "a79ca675f3d61d22853657831d8b1c3a6b27e9fa",
+        "description": "st/program: use nir_lower_clip_disable instead of nir_lower_clip_vs conditionally",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "fb2fe802f638d7a70f0d00ec1d496f317d241765",
+        "description": "nir: add lowering pass for clip plane enabling",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "f8946bd705ce8cfaf0d2d571fefcf67161f9c5d5",
+        "description": "v3d/tex: handle correctly coordinates for cube/cubearrays images",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "0b6e03b8481ffd332946302305ed6535803bc55a",
+        "description": "CI: reduce bandwidth for git pull",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "9190cc9b151004ffec1c6f8c10983853c19af8d2",
+        "description": "tu,radv: fix potentially wrong offset of flexible array.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "e2209e869a5560cb12de040aa5f9db4a305111e8",
+        "description": "meson: turn on Wimplicit-fallthrough project wide",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "26aa02b5ab99bb88a490410b55d357a004d5436b",
+        "description": "nv30: add missing fallthrough comment",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "651441c16fd2fa0eede876d70997cbfd646ef289",
+        "description": "mesa: update fallthrough comment so gcc can see it",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "9549443a8f0352a699bca3d47de92a145c9ced6c",
+        "description": "svga: add missing fallthrough comments",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "7579414db240e9c46f3d440ae4756b053a1340ea",
+        "description": "r300: add and fix up fallthrough comments",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "dfb9be6994f663c47930f3b2ed46b9f880306730",
+        "description": "mesa: fix unintended fallthrough in glIsEnabled()",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": "08fae07f5246052dccdd89689e27dc8820a24ff7"
+    },
+    {
+        "sha": "8b90310b4018056b9d7c8770565b84e1ba0938ab",
+        "description": "mesa: add missing fallthrough comment to teximage.c",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "d88447d5ce47cfb2306a3ff58caa2e2610c653dc",
+        "description": "mesa/vbo: add some missing fallthrough comments",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "cb8cd64411316ca94ef1bb1f95374bbf405f13da",
+        "description": "spirv: add missing fallthrough comments",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "580fe8995815297faadfa82e1e533a046447a77d",
+        "description": "radeon: add missing fallthrough comments",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "f692131641f76973ab0983ac51f821c2f4f57c96",
+        "description": "glsl: move fallthrough comment to where gcc can see it",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "bf3fc3cf3d5dbf9f337a137d7715a8b88961fe3d",
+        "description": "glx: add missing fallthrough comment",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "cb5fafd61783c9c43d97aee9f380186726805b22",
+        "description": "radeonsi: add missing fallthrough comment",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "5c4d9816acfa082539343dddbb94876e9be9eb80",
+        "description": "mesa: add fallthrough comments to COPY_SZ_4V()",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "dbf016e25970c2421e1ebbdb7546600503588bde",
+        "description": "nir: fix implicit fallthrough warnings",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "31dcc173b1552d1c332490367f71ac26a8615bc1",
+        "description": "mesa: add fallthrough comments to get.c",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "f931099270497d5ede856fe0cbc35b8b878011b0",
+        "description": "mesa: add fallthrough comments to glformats.c",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "040b07c7feebac90858f7426c2c20784642d0ca5",
+        "description": "mesa: fix fallthrough in glformats",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": "908f817918fb14a12887f942b8358a5c648b3f92"
+    },
+    {
+        "sha": "8591adea38b82f973948cd120ffd9f93eb3bd71d",
+        "description": "nir/algebraic: Don't distrubte absolute-value into dot-products",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": "62795475e8f45f92bb8f467d9e2318fdfdba6297"
+    },
+    {
+        "sha": "99afaa1d548ebb18c56ae792efccd9b35f0250ca",
+        "description": "ci: Disable pixmark-piano trace on a630 due to GPU hangs.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "7b0a4f977b98cc49df5b2233e1674e63b05a7b25",
+        "description": "pan/mdg: Schedule based on liveness",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "a6f0d7f003bc22e0668ea2ad97161dd4c079e594",
+        "description": "pan/mdg: Vectorize vlut operations",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "c957249df9d09c269425e46afc62dc706826cad6",
+        "description": "pan/mdg: Skip r1.w write where possible",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "de41c4c103d9fdde068956e104fe615994c8880d",
+        "description": "pan/mdg: Prioritize non-moves on VADD/VLUT",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "01e965d312245b61ed0df7ca5987e1db14bc0d69",
+        "description": "pan/mdg: Allow Z/S writes to use any 2nd stage unit",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "8ac2c080452f9ce44dd4dd47ebf207850f2de352",
+        "description": "pan/mdg: Defer smul, vlut until after writeout moves",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "2904acd9383e9aae08ebb139d882a47511f1d401",
+        "description": "pan/mdg: Schedule writeout to VLUT",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "14415d581a925f9a9b1fd0273ad066b1499b5e2b",
+        "description": "pan/mdg: Remove bundle interference code",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "5a43f7fcce80508cb389f5a193277009920c1367",
+        "description": "pan/mdg: Don't assign destination in writeout block to r1",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "d838cb96a57f00c8a15ceca0b1a25fb786af622f",
+        "description": "pan/mdg: Defer nir_fuse_io_16 until after opts",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "78df3b037573ab8d3231a7fc01a4e458a2049cba",
+        "description": "panfrost: Specify stack_shift on SFBD",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "64cdc1311b9385eb3611061dcbfe5ad8a183a896",
+        "description": "etnaviv: move ra into own file",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "027e9e8da37cd629b178eedeece9aaf5efc9fd27",
+        "description": "etnaviv: move nir compiler related stuff into .c file",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "f1df033fccdbc6270d451107e5eaf812758a4145",
+        "description": "etnaviv: move functions that generate asm to own file",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "79427a01909ffeb881984c6298578c44570ba535",
+        "description": "etnaviv: drop emit macro",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "624b8b4a9281979a42692a87e82914fd3875d948",
+        "description": "etnaviv: merge struct etna_compile and etna_state",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "0f025e8b8109b8cef40bb602324fb876ddfc4e11",
+        "description": "etnaviv: move liveness related stuff into own file",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "9ae96d32dd899cd560bfcdb613fbbbc0091591fa",
+        "description": "etnaviv: make more use of compile_error(..)",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "96670c8150239b74dfc44c17b1a60e255a301275",
+        "description": "etnaviv: drop OPT_V define",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "1636e14cfd4ff310e5be76ab1ff8a60c548cb817",
+        "description": "etnaviv: move etna_lower_alu(..) to etnaviv_nir.c",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "7460d4863df9edee2ab51011e14a0fc17b0523db",
+        "description": "etnaviv: get rid of etna_compile dependency",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "12b15cbcbfad4af0faf55800e25d4d8f3280a6d8",
+        "description": "etnaviv: move etna_lower_io(..) to etnaviv_nir.c",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "ea17cbf16fa5f20a2b007276a84be831ad97a9b8",
+        "description": "etnaviv: convert enums",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "34f776386cae077a934f67c6db2be16fa866bc38",
+        "description": "etnaviv: delete not used struct",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "3cdc0d509814471f24efbc98dbaaa42dbc43bbc5",
+        "description": "ci: Move deploy stage between container & build stages",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "fc41ec16c8b3dbe5fa78ce3e94cb547564532a65",
+        "description": "ci: Use \"when: always\" for pages job",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "8e2cb8ef276beb0da00d60961735449aa341be7e"
+    },
+    {
         "sha": "ab9ecb607b88dd4610815ac254205656918e408e",
         "description": "radv,vulkan: add a new x11 wsi drirc workaround for DOOM Eternal",
         "nominated": true,
