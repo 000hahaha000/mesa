@@ -1,5 +1,365 @@
 [
     {
+        "sha": "fc944428bfb5d4c6709b51067a1010051cf8e49e",
+        "description": "ir3: mark ucp_enables as allowed values on all keys",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "01a1926fb9da774e6f3d9c630d3a10cd7fc2942b",
+        "description": "etnaviv: replace prims-emitted query",
+        "nominated": true,
+        "nomination_type": 0,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "42c814158b5f66dddb69c35e1b3a8f28db6c8923",
+        "description": "a4xx: add polygon offset clamp, fix units",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "00f9d4b1fdbfd9bf00c4eb2160ae85057369e8a1",
+        "description": "a4xx: add noperspective interpolation support",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "12e18d9e7aded72dbfa513bce010e793f0d31cf9",
+        "description": "nir: add vec2_index_32bit_offset address format",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "7ab73160032012272a47e6a22e3152489b98b2a0",
+        "description": "nir: Refactor load/store intrinsic helper",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "6d8e2cec819c1608258b566a9110871219f54dcd",
+        "description": "freedreno/regs: document SS6_UBO state src",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "0a7b1f916700a34c27fa8fc804b31428e553ec94",
+        "description": "freedreno/fdperf: prefer render node",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "385d036f5836714bc59937369fdc3447fc0da5fb",
+        "description": "freedreno/fdperf: better compatible string matching",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": "5a13507164a26fc796f02c57a24468b834254b4d"
+    },
+    {
+        "sha": "9c34a3322d859bc6edf18daca14df91001b90562",
+        "description": "freedreno/fdperf: fix print of base address",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "85761e23ea6a20be455ba835640badd994fe0fa5",
+        "description": "wsi/x11: Log swapchain status changes",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "b0bbb62325b829427d87acb25b00b3e0eb0343cb",
+        "description": "vulkan/wsi: Don't consider VK_SUBOPTIMAL_KHR to be an error condition",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": "ca3cfbf6f1e009c0208ffaa483c8a7e80394639d"
+    },
+    {
+        "sha": "c5d8961b0b0724f561aadee441390627d93d3079",
+        "description": "Revert \"radv: add support for MRTs compaction to avoid holes\"",
+        "nominated": false,
+        "nomination_type": 2,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "7a5e6fd25f2e132ef4cacc3a5b714c4e153227b0"
+    },
+    {
+        "sha": "ad913a18b14f25b4f6995cb8a8b0c55c747029d8",
+        "description": "radv: Always enable PERFECT_ZPASS_COUNTS.",
+        "nominated": true,
+        "nomination_type": 0,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "ad151499583f1814280218bf2eae4eaf1e7090a4",
+        "description": "radv: Set handle types in Android semaphore/fence import.",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": "b1444c9ccb06661d932969302d19166df442818c"
+    },
+    {
+        "sha": "7b21ce401f7e81deca5ab6a4353b1369d059bcee",
+        "description": "radv: disable FMASK compression when drawing with GENERAL layout",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": "96063100812d1de46f4146fde92975c98e78c3ce"
+    },
+    {
+        "sha": "8453d2941a7faac1f214aed7c2f4ceaea937847a",
+        "description": "Revert \"nir: Support sysval tess levels in SPIR-V to NIR\"",
+        "nominated": false,
+        "nomination_type": 2,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "d2d4677b56efa0003065b61e39c1ef977c83f7da"
+    },
+    {
+        "sha": "2044bdac4fbba0df471faa2a5736139c17c97857",
+        "description": "Revert \"nir: Add an option for lowering TessLevelInner/Outer to vecs\"",
+        "nominated": false,
+        "nomination_type": 2,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "d2df0761200ba9680f0d22defaa02c33fb051fcf"
+    },
+    {
+        "sha": "b76c6dcbc55d6d2bfdb92950ec5af00430aef943",
+        "description": "freedreno/ir3: fix/rework tess levels",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "3c5512ce5098eab788158fbb6fc6c04a47727ce7",
+        "description": "freedreno/layout: fix explicit layout offset not added to slice offset",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "d53dc6c37680eba8e8fedde055e03b0a61407467"
+    },
+    {
+        "sha": "01986eaf05ca36ddec52c0f7924891c7fc498953",
+        "description": "amd/addrlib: fix another C++ one definition rule violation",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "00d3b13837c5edd299dc40cbd84505c8d1d5927f",
+        "description": "iris: return max counter value for AMD_performance_monitor",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": "0fd4359733e6920d5cac9596eeada753a587a246"
+    },
+    {
+        "sha": "2f4a112ec4a4c45bdc99634af113531ddd7914a2",
+        "description": "st/mesa: fix reporting of float perf counters max value",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": "4cd1cfb9831d4d4081cbe80b0d72b340c8fd0c2c"
+    },
+    {
+        "sha": "2550531dd6b24ad62a95c828e05dc8e42e9d0d85",
+        "description": "llvmpipe: enable GL 4.2",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "28ebc8a21258c8c98468c5607bf1054cae61c797",
+        "description": "llvmpipe: bump to GL support to GL 4.1",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "df6682d7823e8334ed90462ed31abfc2107358bd",
+        "description": "llvmpipe: bump texture/scene limits to enable GL 4.1",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "0ca266025ab309d538ed8c804cb46d2945c6a547",
+        "description": "mesa/version: only enable GL4.1 with correct limits.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "1a83279da57f2e2702d9b13437eed6bfb958af52",
+        "description": "turnip: enable 420_UNORM formats",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "7af2a0b9bcd7a2213a9c873b9d453bf430f106f2",
+        "description": "turnip: support multi-image layouts",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "37cd3c256a22f507fd439885d57a51f9207f4ab6",
+        "description": "turnip: clear_blit: pass aspect mask to setup function",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "ef11d5fc8bb7be56d6afa3f980323cf082ee5c16",
+        "description": "st/mesa: allow R8 to not be exposed as renderable by driver",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "9e2afe4f05abc700bb75c373009aa890311bfdc6",
+        "description": "mesa/glformats: make _mesa_gles_error_check_format_and_type() more consistent",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "a573c8cd47c33ae70c310232de1ce6b0acc56a7e",
+        "description": "drirc: Add picom to adaptive_sync exclusion list",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "19f3c79c7ed4e68d37771489f52bd94a2d032fa6",
+        "description": "turnip: fix tess param bo size calculation",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "395511d16915297b39d11f6d7ede0e0274d390c9",
+        "description": "nir: Add nir_lower_clip_disable.c to SCons build.",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "fb2fe802f638d7a70f0d00ec1d496f317d241765"
+    },
+    {
+        "sha": "a1b89dbc8f4001c19b8b07eb81b9988901a84d50",
+        "description": "gitlab-ci: Enable -Werror in `meson-classic` job",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "ec8fdf8579d7f95257316d29a6e58ccdf6e5aaba",
+        "description": "nouveau: fix pointer-sign warning",
+        "nominated": true,
+        "nomination_type": 1,
+        "resolution": 0,
+        "master_sha": null,
+        "because_sha": "e630271e0ec3eee7d921d76d3924873f6ee6b59b"
+    },
+    {
+        "sha": "b9e163fa67ea27fffd3d2294f4f1e19b57814aeb",
+        "description": "util: Avoid strict aliasing bugs in xxhash.",
+        "nominated": false,
+        "nomination_type": 1,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": "edd62619a1c455226a5bc972b024ea77debecfa5"
+    },
+    {
+        "sha": "29ce8060eb0584d619e48c440540adc1f32de76e",
+        "description": "draw/clip: fix viewport index for geometry shaders",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
+        "sha": "3366171d0ac4c1b19b475f7b72e5dae95a091795",
+        "description": "draw/clip: cleanup viewport index handling code.",
+        "nominated": false,
+        "nomination_type": null,
+        "resolution": 4,
+        "master_sha": null,
+        "because_sha": null
+    },
+    {
         "sha": "0e7b7c3087026015b293e224f024dc4ba7aecb84",
         "description": "turnip: vsc improvements",
         "nominated": false,
